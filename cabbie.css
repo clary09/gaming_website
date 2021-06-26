@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hide{
+    display:none;
+} 
+.carGame{
+    width: 100%;
+    height: 100vh;
+    /* background-color: chartreuse; */
+    background-image: url('cabbie_images/car1.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.car{
+    width:50px;
+    height:70px;
+    background-color: rgb(57, 177, 137);
+    position:absolute;
+    background-image: url(./cabbie_images/carvec.jpeg);
+    background-repeat: no-repeat;
+    background-size: 140% 130%;
+    background-position:center;
+     
+    /* left:650px;
+    top:320px; */
+    bottom: 120px;
+    
+}
+.enemyCar{
+    width:50px;
+    height:70px;
+    background-color: rgb(57, 177, 137);
+    position:absolute;
+    background-image: url(./cabbie_images/enemy1.jpeg);
+    background-repeat: no-repeat;
+    background-size: 140% 130%;
+    background-position:center;
+     
+    /* left:650px;
+    top:320px; */
+    bottom: 120px;
+    
+}
+.gameArea{
+    width:400px;
+    height: 100vh;
+    background: #2d3436 ;
+    margin: auto;
+    position:relative;
+    overflow : hidden;
+    border-right: 7px dashed #c8d6e5;
+    border-left: 7px dashed #c8d6e5;
+}
+.lines{
+    width: 7px;
+    height: 80px;
+    background: white;
+    position: absolute;
+    margin-left: 195px;
+}
+.score{
+    position: absolute;
+    top: 15px;
+    left: 40 px;
+    background: #262727;
+    
+    width: 300px;
+    line-height: 70px;
+    text-align: center;
+    color: azure;
+    font-size: 1.5cm;
+    font-family: sans-serif;
+    box-shadow: 0 5px 5px #777;
+}
+.startScreen{
+    position: absolute;
+    background-color: cadetblue;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color:white;
+    z-index: 1;
+    text-align:center;
+    border: 1px solid #6b7685;
+    padding :15px;
+    margin: auto;
+    width: 50%;
+    cursor: pointer;
+    font-family:serif;
+    letter-spacing: 3;
+    word-spacing : 2;
+    font-size: 20px;
+    text-transform:uppercase;
+    box-shadow: 0 5px 5px #777;
+
+}
